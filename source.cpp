@@ -12,6 +12,6 @@ int main(){
 	pq.Dequeue();
 	pq.PrintAll(true);
 
-	system("PAUSE");
+	// system("PAUSE"); // removed: Windows-only
 	return 0;
 }
